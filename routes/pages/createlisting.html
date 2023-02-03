@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="/product/create" method="POST">
+      <label for="">List price (US$)</label>
+      <input type="number" name="price" />
+      <br>
+      <label for="">Status</label>
+      <select name="status" id="">
+        <option value="active">Active</option>
+        <option value="inactive" Inactive></option>
+      </select>
+      <br>
+      <label for="">Property Type</label>
+      <select name="propertyType" id="">
+        <option value="commercial">Commercial</option>
+        <option value="Residential">Residential</option>
+      </select>
+      <br>
+      <label for="">Street #</label>
+      <input type="text" name="street" id="">
+      <br>
+      <label for="">Unit #</label>
+      <input type="text" name="unit" id="">
+      <br>
+      <label for="">Street Name</label>
+      <input type="text" name="streetName">
+      <br>
+      <label for="">Street Suffix</label>
+      <input type="text" name="streetSuffix" id="">
+      <br>
+      <label for="">City</label>
+      <input type="text" name="city" id="">
+      <br>
+      <label for="">State</label>
+      <input type="text" name="state" id="">
+      <br>
+      <label for="">Zip Code</label>
+      <input type="text" name="zipCode" id="">
+      <br>
+      <label for="">Bedrooms</label>
+      <input type="number" name="bedrooms" id="">
+      <br>
+      <label for="">Bathrooms</label>
+      <input type="number" name="bathrooms" id="">
+      <br>
+      <label for="">Finished SqFt</label>
+      <input type="text" name="finishedSqFt" id="">
+      <br>
+      <label for="">Acres</label>
+      <input type="number" name="Acres" id="">
+      <br>
+      <label for="">Public Remarks</label>
+      <textarea name="remarks" id="" cols="30" rows="10"></textarea>
+      <br>
+      <label for="">Photo Upload</label>
+      <input type="file" name="image" id="">
+      <button>Create</button>
+
+    </form>
+  </body>
+</html>
